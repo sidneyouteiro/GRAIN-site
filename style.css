@@ -273,3 +273,21 @@ tr:nth-child(odd) td:last-child {
     color:#f8f8f8;
 }
 
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-height: 100px;
+    }
+    
+    .buttons-publication {
+        display: grid;
+    }
+
+    .button-publication {
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+
+    ul#menu li {
+        display: block;
+    }
+}
