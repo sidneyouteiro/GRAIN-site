@@ -277,6 +277,10 @@ tr:nth-child(odd) td:last-child {
     .logo {
         max-height: 100px;
     }
+
+    .single-photo {
+        margin-bottom: 2vh;
+    }
     
     .buttons-publication {
         display: grid;
