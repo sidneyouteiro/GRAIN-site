@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+body {
+    
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+.header {
+    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    align-items: center;
+    z-index: 1;
+    opacity: 0.85;
+    position: absolute;
+}
+.logo {
+    left: 0%;
+    top: 0%;
+    position: relative;
+    max-height: 200px;
+    
+}
+
+.cabecalho {
+    width: 100%;
+    height: auto;
+    max-height: 660px;
+    z-index: 0;
+    
+}
+
+.navbar {
+    background-color: #aa9f99;
+    max-width: 100vw;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul#menu {
+
+    margin:0;
+    position: relative;
+    
+}
+
+ul#menu li {
+ display:inline;
+ padding: 12px;
+ color: #d5cfcc;
+}
+
+.abouttheteam {
+    font-family: 'Open Sans';
+    color: #5d5d5d;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.abouttheteam h1 {
+    margin-bottom: 5vh;
+}
+
+ul#researchtopics {
+    padding-top: 10px;
+}
+
+ul#researchtopics li {
+    padding: 5px;
+}
+
+.team {
+    background-color: #f1f9e6;
+    text-align: center
+}
+
+.team h1 {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.photo-wrap-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.single-photo-img {
+   width: 350px;
+   height: 350px;
+   border-top-left-radius: 10%;
+   flex-grow: 0;
+   flex-shrink: 0;
+   
+}
+
+.single-photo {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-left: 1.5vw;
+    margin-right:1.5vw;
+}
+
+.gray-background {
+    background-color: #2b0f0066;
+    
+    width: 350px;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+.gray-background h3 {
+    color: #e6e6e6fe;
+    font-family: 'Open Sans';
+    font-size: 17pt;
+    width: 100%;
+}
+
+.link {
+    width: 90px;
+    height: 90px;
+    background-color: #eeeeeeff;
+    border-radius: 100%;
+    
+}
+
+.link img {
+    position: relative;
+    top: 30%;
+}
+
+.ongoing {
+    justify-content: center;
+    text-align: center;
+}
+
+.ongoing h1 {
+    margin-bottom: 3vh;
+}
+
+.ongoing h2 {
+    margin-bottom: 3vh;
+}
+
+table {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+}
+
+th:first-child {
+    background-color: #cec6c4;
+    padding: 1em;
+}
+
+th:last-child {
+    background-color: #aa9f99;
+    color: #f2f2f2;
+    padding: 1em;
+}
+
+tr:nth-child(even) td:first-child {
+    background-color: #aa9f99;
+    color: #f2f2f2;
+    padding: 1em;
+    font-size: 11pt;
+}
+tr:nth-child(even) td:last-child {
+    background-color: #cec6c4;
+    padding:1em;
+    font-size: 11pt;
+}
+
+tr:nth-child(odd) td:first-child {
+    background-color: #cec6c4;
+    padding: 1em;
+    font-size: 11pt;
+}
+tr:nth-child(odd) td:last-child {
+    background-color: #aa9f99;
+    color: #f2f2f2;
+    padding: 1em;
+    font-size: 11pt;
+}
+
+.publications {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.publications img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(60%)
+}
+
+.publications h1 {
+    color: #f2f2f2;
+    position: absolute;
+    top: 20%;
+}
+
+.buttons-publication {
+    position:absolute;
+    top:50%;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-publication {
+    background-color: #f1f8e5;
+    color:#5d5d5d;
+    padding: 10px;
+}
+
+.button-publication:hover {
+    background-color: #446418;
+    color: #f1f8e5
+}
+
+.collaborators {
+    text-align: center;
+    
+}
+
+.logos img {
+    width: auto;
+    height: 70px;
+    margin-right: 3vw;
+}
+
+.footer {
+    background-color: #333333;
+    display: absolute;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 3vh;
+    color:#f8f8f8;
+}
+
