@@ -247,6 +247,14 @@ tr:nth-child(odd) td:last-child {
     
 }
 
+.collaborators h1 {
+    margin-top: 2vh;
+}
+
+.collaborators h2 {
+    margin-top: 2vh;
+}
+
 .logos img {
     width: auto;
     height: 70px;
