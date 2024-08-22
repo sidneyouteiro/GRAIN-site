@@ -65,6 +65,9 @@ ul#menu li {
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(1050px + 6vw);
 }
 
 .abouttheteam h1 {
@@ -163,8 +166,9 @@ ul#researchtopics li {
 }
 
 table {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(1050px + 6vw);
     margin-bottom: 5vh;
 }
 
@@ -273,9 +277,29 @@ tr:nth-child(odd) td:last-child {
     color:#f8f8f8;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media (min-width: 742px)  and (max-width:1154px) {
+    .abouttheteam {
+        width: calc(700px + 3vw);
+    }
+
+    table {
+        width: calc(700px + 3vw);
+    }
+}
+
+@media only screen and (max-width: 740px) {
     .logo {
         max-height: 100px;
+    }
+
+    .abouttheteam {
+        width: 350px;
+    }
+
+    table {
+        width: 350px;
     }
 
     .single-photo {
