@@ -3,10 +3,22 @@
     margin: 0;
     max-width: 100%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     
     font-family: 'Open Sans';
     font-size: 22px;
+}
+
+
+
+a, a:visited, a:active, a:hover, a:link {
+    text-decoration: none;
+    color: #d5cfcc;
 }
 
 .header {
@@ -44,6 +56,7 @@ body {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 ul#menu {
