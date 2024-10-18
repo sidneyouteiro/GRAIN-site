@@ -290,7 +290,13 @@ tr:nth-child(odd) td:last-child {
     color:#f8f8f8;
 }
 
+.accordion-header {
+    margin-bottom: 30px;
+}
 
+.team-icon {
+    transition: transform 0.2s ease-in-out; /* Smooth transition for rotation */
+}
 
 @media (min-width: 742px)  and (max-width:1154px) {
     .abouttheteam {
